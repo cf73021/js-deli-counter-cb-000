@@ -16,4 +16,7 @@ function currentLine(current_line) {
   if (current_line.length > 0) {
 
   }
+  else {
+    return "The line is currently empty."
+  }
 }
