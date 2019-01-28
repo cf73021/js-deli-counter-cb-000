@@ -4,4 +4,6 @@ function takeANumber(current_line, new_person) {
   return `Welcome, ${new_person}. You are number ${line_place} in line.`
 }
 
-function nowServing()
+function nowServing(katzDeliLine) {
+  
+}
