@@ -25,4 +25,5 @@ function currentLine(current_line) {
   else {
     return "The line is currently empty."
   }
+  return line_string
 }
