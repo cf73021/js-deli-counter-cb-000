@@ -13,5 +13,7 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(current_line) {
-  
+  if (current_line.length > 0) {
+
+  }
 }
