@@ -20,7 +20,7 @@ function currentLine(current_line) {
       line_string = line_string + `${i+1}. ` + `${current_line[i]}.`
       i++
     }
-
+    while (i < current_line.length)
   }
   else {
     return "The line is currently empty."
