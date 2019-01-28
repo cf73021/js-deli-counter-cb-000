@@ -16,7 +16,7 @@ function currentLine(current_line) {
   if (current_line.length > 0) {
     var line_string = "The line is currently: "
     var i = 0
-    do else {
+    do {
       var lineList = `1. ${line[0]}`
       for (var n = 1; n < line.length; n++) {
         lineList += `, ${n+1}. ${line[n]}`;
