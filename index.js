@@ -5,5 +5,5 @@ function takeANumber(current_line, new_person) {
 }
 
 function nowServing(katzDeliLine) {
-  
+  if katzDeliLine.length > 0
 }
