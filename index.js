@@ -17,7 +17,7 @@ function currentLine(current_line) {
     var line_string = "The line is currently: "
     var i = 0
     do {
-      line_string = line_string + `${i+1}. ` + ` ${current_line[i]},`
+      line_string = line_string + ` ${i+1}. ` + `${current_line[i]},`
       i++
     }
     while (i < current_line.length)
