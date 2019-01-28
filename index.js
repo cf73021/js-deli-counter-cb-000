@@ -17,7 +17,7 @@ function currentLine(current_line) {
     var line_string = "The line is currently: "
     var i = 0
     do {
-      line_string = line_string
+      line_string = line_string + current_line(0)
     }
   }
   else {
