@@ -18,7 +18,9 @@ function currentLine(current_line) {
     var i = 0
     do {
       line_string = line_string + `${i+1}. ` + `${current_line[i]}.`
+      i++
     }
+
   }
   else {
     return "The line is currently empty."
