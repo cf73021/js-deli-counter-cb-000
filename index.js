@@ -20,6 +20,7 @@ function currentLine(current_line) {
       if (i = 0){
       line_string = line_string + `${i+1}. ` + `${current_line[i]}, `
       i++}
+      else if (i )
     }
     while (i < current_line.length)
   }
